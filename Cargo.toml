@@ -5,5 +5,17 @@ authors = ["Huseyin Yilmaz <yilmazhuseyin@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name="first_duplicate01"
+path="src/first_duplicate01/main.rs"
+
+[[bin]]
+name="warp_test01"
+
+path="src/warp_test01/main.rs"
 
 [dependencies]
+log = "0.4"
+pretty_env_logger = "0.3"
+warp = "0.2.1"
+tokio = { version = "0.2.11", features = ["full"] }
