@@ -14,6 +14,11 @@ name="warp_test01"
 
 path="src/warp_test01/main.rs"
 
+[[bin]]
+name="warp_test_02"
+
+path="src/warp_test_02/main.rs"
+
 [dependencies]
 log = "0.4"
 pretty_env_logger = "0.3"
